@@ -9,17 +9,13 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <children>
-      <RadioButton fx:id="RadioButton1" mnemonicParsing="false" selected="true" text="Euro - Dollard US">
-         <toggleGroup>
-            <ToggleGroup fx:id="ToogleGroup" />
-         </toggleGroup></RadioButton>
-      <RadioButton fx:id="RadioButton2" mnemonicParsing="false" text="Dollard US - Euro" toggleGroup="$ToogleGroup" />
-      <Label fx:id="Euro" text="Euro">
+      <ComboBox fx:id="comboSelection" prefWidth="150.0" />
+      <Label fx:id="label1" text="?">
          <graphic>
             <TextField fx:id="textField" />
          </graphic></Label>
       <Button id="BoutonConvertir" fx:id="Bouton" mnemonicParsing="false" prefHeight="34.0" prefWidth="45.0" stylesheets="@Style.css" />
-      <Label fx:id="Dollards" text="Dollard-US">
+      <Label fx:id="label2" text="?">
          <graphic>
             <TextField fx:id="textfield2" />
          </graphic>

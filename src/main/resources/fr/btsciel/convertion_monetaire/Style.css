@@ -1,0 +1,5 @@
+#BoutonConvertir{
+    -fx-background-image:
+            url(convertir.png);
+    -fx-background-size: stretch;
+}
